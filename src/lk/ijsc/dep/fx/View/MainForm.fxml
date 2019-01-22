@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijsc.dep.fx.controler.MainFormControler">
+   <children>
+      <Button fx:id="btnManageCustomer" layoutX="24.0" layoutY="257.0" mnemonicParsing="false" onAction="#btnmanageCusOnaction" text="Manage Customer" />
+      <Button fx:id="btnManageitem" layoutX="186.0" layoutY="257.0" mnemonicParsing="false" onAction="#btnmangeItemOnaction" text="Manage Item" />
+      <Button fx:id="btnplaceOrder" layoutX="320.0" layoutY="257.0" mnemonicParsing="false" onAction="#btnPlaceOrderOnAction" text="Place Order" />
+      <Button fx:id="btnSearchOrder" layoutX="463.0" layoutY="257.0" mnemonicParsing="false" onAction="#btnsearchOrderOnaction" text="View Order" />
+      <Button fx:id="btnSettings" layoutX="520.0" layoutY="361.0" mnemonicParsing="false" onAction="#btnSettingsOnAction" text="Settings" />
+      <Label fx:id="mainform" layoutX="240.0" layoutY="25.0" text="POS" textFill="#274af8">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="83.0" fitWidth="87.0" layoutX="39.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imeges/Businessman_48px.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="95.0" fitWidth="93.0" layoutX="180.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imeges/cart_48px.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="78.0" layoutX="320.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imeges/Double%20Tick_48px.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="77.0" fitWidth="83.0" layoutX="460.0" layoutY="131.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imeges/View_48px.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="42.0" fitWidth="44.0" layoutX="528.0" layoutY="306.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imeges/Services_48px.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
